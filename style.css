@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Caveat&family=Lato:ital,wght@1,100&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #486549;
+    color: white;
+}
+
+#title {
+    font-family: 'Caveat';
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.header-text {
+    font-family: 'Lato';
+    font-size: 40px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav {
+    background-color: #CCC6B6;
+}
+
+#navbar-group {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: 20px auto;
+}
+
+nav .nav-btn {
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+nav .nav-btn:hover {
+    background-color: #8C8A49;
+    color: white;
+    text-decoration: solid;
+}
+
+.thingy-bg {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    display: block;
+    background-image: url("img/bg-pantai.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 750px;
+    max-height: 1000px;
+    bottom: 10px;
+    position: relative;
+}
+
+.midthingy {
+    background-color: rgb(233, 170, 61);
+    background-color: rgba(247, 194, 47, 0.4);
+    color: white;
+    font-weight: bold;
+    font-family: 'Caveat';
+    font-size: 30px;
+    border: 1px solid #f1e29c;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.midthingy-caption {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Bilbo Swash Cap';
+}
+
+#about {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comp-about {
+    border: #4D4B28 1px solid;
+    border-radius: 10px;
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.photo {
+    display: block;
+    border: #CCC6B6 3px solid;
+    border-radius: 15%;
+}
+
+#west {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.west-about {
+    border: #4D4B28 1px solid;
+    border-radius: 10px;
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    font-size: 20px;
+}
+
+.no-bull {
+    list-style-type: disc;
+    margin-left: 100px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.photo-trip {
+    border: #CCC6B6 3px solid;
+    border-radius: 15%;
+    width: 750px;
+    height: 500px;
+    object-fit: cover;
+}
+
+#east {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.east-about {
+    border: #4D4B28 1px solid;
+    border-radius: 10px;
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+#cp {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cp-label {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cp-about ul {
+    list-style-type: none;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-cp {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Caveat';
+    border: black 1px solid;
+    width: 150px;
+    height: 35px;
+    display: block;
+    border-radius: 20px;
+}
+
+.btn-cp:hover {
+    background-color: #8C8A49;
+    color: white;
+    text-decoration: solid;
+    border: #8C8A49 1px solid;
+}
+
+.slideshow-container {
+    max-width: 750px;
+    position: relative;
+    margin: auto;
+    z-index: -1;
+}
+
+.mySlides1 {
+    display: none;
+}
+
+.mySlides2 {
+    display: none;
+}
+
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+footer {
+    background-color: #486549;
+    color: white;
+    margin-top: 50px;
+    font-size: small;
+    padding: 10px;
+    text-align: center;
+}
